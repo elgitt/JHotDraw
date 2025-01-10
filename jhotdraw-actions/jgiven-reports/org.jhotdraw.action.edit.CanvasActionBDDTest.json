@@ -1,0 +1,149 @@
+{
+  "className": "org.jhotdraw.action.edit.CanvasActionBDDTest",
+  "name": "Canvas Action BDD",
+  "scenarios": [
+    {
+      "className": "org.jhotdraw.action.edit.CanvasActionBDDTest",
+      "testMethodName": "no_objects_should_be_selected_when_deselect_all_action_is_performed",
+      "description": "no objects should be selected when deselect all action is performed",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "a canvas with selected objects",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "a canvas with selected objects"
+                },
+                {
+                  "value": "Object1 Object2 Object3",
+                  "argumentInfo": {
+                    "argumentName": "text",
+                    "formattedValue": "Object1 Object2 Object3"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 495760200
+            },
+            {
+              "name": "the user performs the deselect all action",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the user performs the deselect all action"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 49972300
+            },
+            {
+              "name": "no objects should be selected",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "no objects should be selected"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 163541000
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 749141600
+        }
+      ],
+      "durationInNanos": 749141600,
+      "executionStatus": "SUCCESS"
+    },
+    {
+      "className": "org.jhotdraw.action.edit.CanvasActionBDDTest",
+      "testMethodName": "all_objects_should_be_selected_when_select_all_action_is_performed",
+      "description": "all objects should be selected when select all action is performed",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "a canvas with objects",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "a canvas with objects"
+                },
+                {
+                  "value": "Object1 Object2 Object3",
+                  "argumentInfo": {
+                    "argumentName": "text",
+                    "formattedValue": "Object1 Object2 Object3"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 4352000
+            },
+            {
+              "name": "the user performs the select all action",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the user performs the select all action"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 3934600
+            },
+            {
+              "name": "all objects should be selected",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "all objects should be selected"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 670800
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 10808200
+        }
+      ],
+      "durationInNanos": 10808200,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
